@@ -75,3 +75,8 @@ modules/views/
 
 #webpack
 /bundle
+
+# --------------------
+# local config
+# --------------------
+*-config.json

@@ -1,7 +1,9 @@
 'use strict'
+let dbConfig = require('./../../db-config.json');
 
 module.exports = {
-  db: 'mongodb://' + (process.env.DB_PORT_27017_TCP_ADDR || 'localhost') + '/mean-dev',
+  //db: 'mongodb://' + (process.env.DB_PORT_27017_TCP_ADDR || 'localhost') + '/mean-dev',
+  db: dbConfig.username + ':' + dbConfig.password + '@ds127730.mlab.com:27730/stocksman',
   debug: true,
   logging: {
     format: 'tiny'
@@ -13,7 +15,7 @@ module.exports = {
   },
   hostname: 'http://localhost:3000',
   app: {
-    name: 'MEAN - A Modern Stack - Development'
+    name: 'stocksman'
   },
   strategies: {
     local: {
