@@ -1,0 +1,2 @@
+# stocksman
+Basic Stock Analytics
