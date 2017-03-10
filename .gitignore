@@ -1,89 +1,77 @@
-# OS
-# ===========
+# --------------------
+# OSX Files
+# --------------------
 .DS_Store
-ehthumbs.db
-Icon?
-Thumbs.db
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
 
-# PHP
-db_conf.php
-
-# PHP CodeIgniter
-database.php
-
-# Node and related ecosystem
-# ==========================
-.nodemonignore
-.sass-cache/
-
-node_modules/
-public/lib/
-!public/lib/MDB_3.3.2
-app/tests/coverage/
-.bower-*/
-.idea/
-coverage/
-
-# MEAN.js app and assets
-# ======================
-public/dist/
-uploads
-modules/users/client/img/profile/uploads
-config/env/local.js
-config/env/personalCred.js
-
-config/env/local-*.js
-
-# Ignoring MEAN.JS's gh-pages branch for documenation
-_site/
-
-# General
-# =======
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
-*.tmp
-*.bak
-*.swp
-*.xlsx
-logs/
-build/
-
-# Sublime editor
-# ==============
-.sublime-project
-*.sublime-project
-*.sublime-workspace
-
-# Eclipse project files
-# =====================
+# --------------------
+# Eclipse or Nodeclipse "Enide Studio" Files
+# --------------------
+# recommended to add to Git SCM
+# or generate with `nodeclipse -p` command
 .project
 .settings/
 .*.md.html
-.metadata
-*~.nib
-local.properties
 
-# IntelliJ
-# ========
+
+# --------------------
+# IntelliJ Files
+# --------------------
 *.iml
+*.ipr
+*.iws
+.idea/
 
-# Cloud9 IDE
-# =========
-.c9/
+# --------------------
+# Netbeans Files
+# --------------------
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# --------------------
+# Node Files
+# --------------------
+.nodemonignore
+npm-debug.log
+node_modules/
+
+# --------------------
+# SASS Files
+# --------------------
+.sass-cache/
+
+# --------------------
+# Bower Files
+# --------------------
+.bower-*/
+bower_components
+
+# --------------------
+# App Files
+# --------------------
 data/
-mongod
+tests/results/**
+modules/public/
+modules/views/
+/public/build/
+/packages/contrib/
+/packages/**/**/public/assets/lib
 
-# Visual Studio
-# =========
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
 
-# Config Files
-# =========
-config.js
+# --------------------
+# vim Files
+# --------------------
+*.swp
+
+#webpack
+/bundle
