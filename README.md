@@ -8,5 +8,5 @@ APIs in use:
 * http://dev.markitondemand.com/MODApis/#doc_quote
   * https://github.com/markitondemand/DataApis
   * http://www.highcharts.com/
-* https://github.com/linnovate/mean OR https://github.com/meanjs/mean
+* https://github.com/linnovate/mean
 * https://www.npmjs.com/package/xml2js
